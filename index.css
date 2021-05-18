@@ -1,0 +1,365 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+ 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ 
+body {
+    line-height:1;
+}
+ 
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+ 
+nav ul {
+    list-style:none;
+}
+ 
+blockquote, q {
+    quotes:none;
+}
+ 
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+ 
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ 
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+ 
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+ 
+del {
+    text-decoration: line-through;
+}
+ 
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+ 
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ 
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+ 
+input, select {
+    vertical-align:middle;
+}
+
+body {
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: rgb(0, 0, 0);
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: rgb(255, 255, 255);
+}
+
+a{
+  text-decoration:none;
+  color:black;
+  color: #000;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  vertical-align: bottom;;
+}
+
+
+
+.sidebar{
+  width:20%;
+  height:100%;
+  position:fixed;
+  right:0;
+}
+
+.side-contents{
+  margin-left:30px;
+}
+
+.side-logo{
+  width:87px;
+  height:22.42px;
+  padding:30px 0;
+}
+
+.side-menu li{
+  padding:10px 10px 10px 0;
+}
+
+.side-menu li:hover{
+  text-decoration: underline;
+}
+
+.side-icons .fab{
+  padding:10px;
+}
+
+.side-icons .fab:hover{
+  opacity:0.8;
+}
+
+header{
+  position:fixed;
+  background-color:white;
+  width:100%;
+  height:60px;
+  text-align:center;
+  z-index:1;
+}
+
+.header-cover{
+  position:fixed;
+  background-color:white;
+  width:100%;
+  height:60px;
+  text-align:center;
+  z-index:1000;
+}
+
+.fa-bars{
+  float:right;
+  padding:10px 10px 0 0;
+}
+
+.contents{
+  width:80%;
+}
+
+.top-image{
+  width:100%;
+}
+
+.message-wrapper{
+  width:70%;
+  margin:0 auto;
+  text-align:center;
+}
+
+.heading{
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  padding:55px 0 20px 0;
+  margin-bottom:40px;
+  border-bottom: 3px solid black;
+  display:inline-block;
+}
+
+.text-message{
+  width:80%;
+  color: rgb(0, 0, 0);
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  text-align:left;
+  margin:auto;
+  margin-bottom:80px;
+}
+
+.photo-wrapper img{
+  width:33.33333%;
+}
+
+span .big-photo{
+  width:100%;
+}
+
+.brand-wrapper{
+  width:80%;
+  margin:auto;
+ text-align:center;
+}
+
+.brand-contents{
+  display:flex;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.brand-items{
+  width:25%;
+  padding: 0 25px;
+  text-align:left;
+}
+
+.brand-items img{
+  width:100%;
+  padding-bottom:10px;
+}
+
+.project-wrapper{
+  width:80%;
+  margin:0 auto;
+  text-align:center;
+  padding-bottom:70px;
+  border-bottom: 1px solid black;
+}
+
+.project-items{
+  
+  padding-bottom: 70px;
+}
+
+.project-items img{
+  width:375px;
+  height:225px;
+  padding-right:20px;
+  float:left;
+}
+
+.project-items p{
+  text-align:left;
+}
+
+.company-wrapper{
+  width:80%;
+  text-align:center;
+  margin:0 auto;
+}
+
+.company-contents{
+  display:flex;
+  padding-top:15px;
+  padding-bottom:450px;
+}
+
+.company-adress{
+ text-align:left;
+ padding-right:10%;
+}
+
+.ggmap{
+  width:60%;
+  position:relative;
+  padding-bottom: 20%;
+}
+
+iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+footer{
+  width:80%;
+  text-align:center;
+}
+
+footer p{
+  padding-bottom: 60px;
+  font-size: 16px;
+}
+
+footer a{
+  color:blue;
+}
+
+.navi{
+  background-color: white;
+  text-align:left;
+  transform:translateY(-200%);
+  transition:0.5s;
+  z-index:1;
+}
+
+.navi-list li{
+  padding:10px 0px;
+  border-bottom:black 1px solid;
+}
+
+.navi-list li a{
+  color: #000;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    font-size:large
+}
+
+.navi-list li:hover{
+  text-decoration: underline;
+}
+
+.navi-list  li .fas{
+  padding:10px;
+}
+
+.navi-icons{
+  display: flex;;
+ border-bottom: 1px black solid;
+}
+
+.navi-icons li{
+  padding:10px;
+}
+
+.drawer-bottom{
+  position: absolute;
+  right:13px;
+  top:13px;
+  transform:scale(1.9);
+  opacity: 0;
+  z-index:2000;
+}
+
+.drawer-bottom:checked ~ .navi{
+  transform:translateY(0%);
+}
